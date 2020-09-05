@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+
+body {
+    margin: 25px;
+    background-color: silver;
+    font-family: 'Cairo', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+h1:hover {
+    text-shadow: 0px 0px 10px blue;
+    color: rgba(64, 224, 208, 0.349);
+}
+
+h2 {
+    text-align: center;
+    animation: animacaoh2 1.5s infinite;
+    font-family: 'Cairo', sans-serif;
+}
+
+h2:hover {
+    animation: none;
+    background-color: teal;
+    color: white;
+}
+
+@keyframes animacaoh2 {
+    0% {
+        background-color: silver;
+    }
+    50% {
+        background-color: slategray;
+    }
+    100% {
+        background-color: silver;
+    }
+}
+
+h3:hover {
+    font-weight: 400;
+    text-shadow: 2px 2px 2px brown;
+}
+
+h4:hover {
+    font-weight: 400;
+    text-shadow: 2px 2px 2px brown;
+
+}
+
+img {
+    border: 5px solid black;
+    transition: all 3s else;
+}
+
+img:hover {
+    transform: perspective(100px) rotatey(2deg);
+    box-shadow: 10px 10px 5px 0 black;
+}
